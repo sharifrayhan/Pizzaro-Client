@@ -42,10 +42,10 @@ const userPhoto = 'https://unsplash.com/photos/yellow-and-gray-robot-toy-1DjbGRD
     <nav className={`fixed w-full bg-transparent px-4 text-white py-3 transition-all duration-300 ease-in-out`}>
       <div className="flex flex-col md:flex-row lg:flex-row items-center justify-between mx-11">
         
-    <div className='flex gap-3'>
+    <div className='flex items-center gap-3'>
           {/* Drawer Trigger */}
           <div className="">
-          <img className="h-8 cursor-pointer" onClick={toggleDrawer} src="https://i.ibb.co/ydQcs9S/menu-bar.png" alt="" />
+          <img className="h-5 cursor-pointer" onClick={toggleDrawer} src="https://i.ibb.co/G3ypY5m/menu-white.png" alt="" />
         </div>
 
         {/* Drawer Content */}
@@ -74,29 +74,16 @@ const userPhoto = 'https://unsplash.com/photos/yellow-and-gray-robot-toy-1DjbGRD
 
         {/* Company Logo */}
         <div className="">
-          <img className="h-8 w-18" src="https://i.ibb.co/t8NxJGr/black.png" alt="" />
+          <img className="h-8 w-18" src="https://i.ibb.co/frn7dFd/white.png" alt="" />
         </div>
     </div>
 
         {/* Three main components for users */}
         <div className="flex gap-6 relative">
-          <Link to="/" className='hover:text-[#e27f5a] text-gray-800'>Home</Link>
-          <Link to="/services" className='hover:text-[#e27f5a] text-gray-800'>Items</Link>
-
-          {user && (
-            <div className="relative" onClick={toggleDropdownOne}>
-              <p className="cursor-pointer hover:text-[#e27f5a] text-gray-800">Dashboard</p>
-              {/* Dropdown Content */}
-              {dropdownOpenOne && (
-                <div className="absolute w-[130px] z-10 top-full mt-1 py-2 bg-white text-gray-800 shadow-md rounded-lg">
-                  <Link to="/MyServices" className="block px-4 py-2 text-sm hover:bg-[#EF5C2B]">My Services</Link>
-                  <Link to="/AddServices" className="block px-4 py-2 text-sm hover:bg-[#EF5C2B]">Add Services</Link>
-                  <Link to="/MySchedules" className="block px-4 py-2 text-sm hover:bg-[#EF5C2B]">My Schedules</Link>
-                </div>
-              )}
-            </div>
-          )}
-          <Link to="/services" className='hover:text-[#e27f5a] text-gray-800'>About</Link>
+          <Link to="/" className='hover:text-[#e27f5a] text-white'>Home</Link>
+          <Link to="/services" className='hover:text-[#e27f5a] text-white'>Menu</Link>
+          <Link to="/services" className='hover:text-[#e27f5a] text-white'>About</Link>
+          <Link to="/services" className='hover:text-[#e27f5a] text-white'>Contact</Link>
         </div>
 
         {/* Login/Logout and user information */}

@@ -10,6 +10,7 @@ export default {
       fontFamily : {
         sigmar : 'Sigmar One', 
         poppins: 'Poppins', 
+        antonio: 'Antonio',
       }
     },
   },
