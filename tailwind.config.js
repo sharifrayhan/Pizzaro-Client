@@ -6,8 +6,14 @@ export default {
      ],
 
   theme: {
-    extend: {},
+    extend: {
+      fontFamily : {
+        sigmar : 'Sigmar One', 
+        poppins: 'Poppins', 
+      }
+    },
   },
+  
   plugins: [require("daisyui")],
 }
 

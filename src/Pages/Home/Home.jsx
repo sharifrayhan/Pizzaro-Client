@@ -8,7 +8,7 @@ const Home = () => {
         <div className=" max-w-8xl">
             <Navbar></Navbar>
             <Banner></Banner>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </div>
     );
 };
