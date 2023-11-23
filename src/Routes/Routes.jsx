@@ -8,6 +8,7 @@ import Bonus from "../Pages/Bonus/Bonus";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import ReservationForm from "../Pages/Register/Register";
+import AddItem from "../Pages/Additems/AddItem";
   
  export const router = createBrowserRouter([
     {
@@ -30,6 +31,10 @@ import ReservationForm from "../Pages/Register/Register";
         {
           path: "/Register",
           element:<ReservationForm></ReservationForm>,
+        },
+        {
+          path: "/AddItem",
+          element:<AddItem></AddItem>,
         },
       ],
     }, 
