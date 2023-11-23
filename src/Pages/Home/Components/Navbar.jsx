@@ -34,9 +34,9 @@ const userPhoto = 'https://unsplash.com/photos/yellow-and-gray-robot-toy-1DjbGRD
     setDropdownOpenTwo(!dropdownOpenTwo);
   };
 
-  const toggleDropdownThree = () => {
-    setDropdownOpenThree(!dropdownOpenThree);
-  };
+  // const toggleDropdownThree = () => {
+  //   setDropdownOpenThree(!dropdownOpenThree);
+  // };
 
   return (
     <nav className={`fixed w-full bg-transparent px-4 text-white py-3 transition-all duration-300 ease-in-out`}>
@@ -57,14 +57,15 @@ const userPhoto = 'https://unsplash.com/photos/yellow-and-gray-robot-toy-1DjbGRD
               </button>
             </div>
             <div className="flex flex-col items-center">
-              <Link to="/" onClick={closeDrawer} className='text-white'>Home</Link>
+              <Link to="/" onClick={closeDrawer} className='text-white mb-1'>Home</Link>
               <Link to="/services" onClick={closeDrawer} className='text-white'>Items</Link>
               {/* Add more menu items with onClick handlers */}
               {user && (
                 <>
-                  <Link to="/MyServices" className="block px-4 py-2 text-sm hover:bg-[#EF5C2B]">My Services</Link>
-                  <Link to="/AddServices" className="block px-4 py-2 text-sm hover:bg-[#EF5C2B]">Add Services</Link>
-                  <Link to="/MySchedules" className="block px-4 py-2 text-sm hover:bg-[#EF5C2B]">My Schedules</Link>
+                <h1 className=' text-yellow-300 mt-1'>Admin Dashboard</h1>
+                  <Link to="/MyServices" className="block px-4 py-2 text-sm hover:bg-[#EF5C2B]">Manage items</Link>
+                  <Link to="/AddServices" className="block px-4 py-2 text-sm hover:bg-[#EF5C2B]">Add Items</Link>
+                  <Link to="/MySchedules" className="block px-4 py-2 text-sm hover:bg-[#EF5C2B]">Reservations</Link>
                 </>
               )}
             </div>

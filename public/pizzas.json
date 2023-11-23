@@ -1,0 +1,24 @@
+[
+    {
+      "name": "Margherita",
+      "ingredients": ["Tomato Sauce", "Fresh Mozzarella", "Basil", "Olive Oil"],
+      "price": 12.99,
+      "size": "Medium",
+      "details": "Classic simplicity at its finest, our Margherita pizza boasts a harmonious blend of tangy tomato sauce, fresh mozzarella, aromatic basil, and a drizzle of olive oil."
+    },
+    {
+      "name": "Pepperoni Passion",
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Pepperoni", "Red Pepper Flakes"],
+      "price": 14.99,
+      "size": "Large",
+      "details": "For the pepperoni enthusiast, our Pepperoni Passion pizza is a flavorful delight featuring zesty tomato sauce, gooey mozzarella, spicy pepperoni, and a sprinkle of red pepper flakes."
+    },
+    {
+      "name": "Seafood Sensation",
+      "ingredients": ["Garlic Sauce", "Shrimp", "Calamari", "Mussels", "Spinach", "Tomatoes"],
+      "price": 16.99,
+      "size": "Extra Large",
+      "details": "Dive into the deep with our Seafood Sensation pizza, featuring a luscious garlic sauce, succulent shrimp, tender calamari, plump mussels, fresh spinach, and juicy tomatoes."
+    }
+  ]
+  
